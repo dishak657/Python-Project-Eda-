@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 df=pd.read_csv(r"C:\Users\hp\Downloads\2016-17_-_2020-21_School_End-of-Year_Attendance_and_Chronic_Absenteeism_Data (4).csv", encoding='ISO-8859-1')
-.
+
 
 print(df) 
 print(df.shape) 
