@@ -137,9 +137,5 @@ plt.tight_layout()
 plt.show()
 
 
-# Donut Chart: Same data with a central hole
-plt.pie(top_chronic, labels=top_chronic.index, autopct='%1.1f%%', startangle=140, wedgeprops={'width':0.4})
-plt.title('Donut Chart - Top 5 Categories by Chronic Absenteeism')
-plt.tight_layout()
-plt.show()
+
 
